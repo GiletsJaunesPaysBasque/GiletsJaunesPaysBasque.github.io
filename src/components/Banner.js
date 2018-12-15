@@ -7,8 +7,8 @@ const Banner = (props) => (
                 <h1>Gilets Jaunes en Pays basque</h1>
             </header>
             <div className="content">
-                <p>Tu pourras trouver ici des informations nos moyens de communication,<br />
-                des documents qui nous semblent pertinents, et comment nous rejoindre.</p>
+                <p>Tu pourras trouver ici des informations sur nos moyens de communication,<br />
+                des documents qui nous ont semblé pertinents, et comment nous rejoindre.</p>
                 <ul className="actions">
                     <li><a href="#one" className="button next scrolly">Commencer à naviquer</a></li>
                 </ul>
