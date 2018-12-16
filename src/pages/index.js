@@ -53,7 +53,7 @@ class HomeIndex extends React.Component {
                                 <h3>Les Assemblés générales</h3>
                                 <p>Elles nous permettent de voter de façons collégiales des propositions,<br/>
                                 qui peuvent émaner des ateliers participatifs, d'une recherche collective,<br/>
-                                individuelle, ou autre, à vous d'être force de propositions!
+                                individuelle, ou autres, à vous d'être force de propositions!
                                 </p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>

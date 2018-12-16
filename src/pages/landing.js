@@ -22,7 +22,7 @@ const Landing = (props) => (
                     <header className="major">
                         <h2>Projet participatif</h2>
                     </header>
-                    <p>Nous vous invitons à proposer vos idées concernant les nouvelles fonctionnalités que vous aimeriez, n'hésitez pas à envoyer un mail sur contact@giletsjaunes-paysbasque.org (sujet du mail: site</p>
+                    <p>Nous vous invitons à proposer vos idées concernant les nouvelles fonctionnalités que vous aimeriez, n'hésitez pas à envoyer un mail sur contact@giletsjaunes-paysbasque.org (sujet du mail: site internet)</p>
                 </div>
             </section>
             <section id="two" className="spotlights">
@@ -35,7 +35,7 @@ const Landing = (props) => (
                             <header className="major">
                                 <h3>Bibliothèque de document</h3>
                             </header>
-                            <p>C'est l'objectif de la prochaine version, vous proposer des documents trier selon leur type: documents internes, articles, vidéos, etc...</p>
+                            <p>C'est l'objectif de la prochaine version, vous proposer des documents triés selon leur type: documents internes, articles, vidéos, etc...</p>
                             <ul className="actions">
                                 <li><Link to="/landing" className="button">En savoir plus</Link></li>
                             </ul>
@@ -51,7 +51,7 @@ const Landing = (props) => (
                             <header className="major">
                                 <h3>Calendrier</h3>
                             </header>
-                            <p>Objectif à plus long termes, nous souhaitons mettre à votre disposition sur ce site un callendrier rescense l'ensemble de nos activités.</p>
+                            <p>Objectif à plus long terme, nous souhaitons mettre à votre disposition sur ce site un calendrier recense l'ensemble de nos activités.</p>
                             <ul className="actions">
                                 <li><Link to="/landing" className="button">En savoir plus</Link></li>
                             </ul>
