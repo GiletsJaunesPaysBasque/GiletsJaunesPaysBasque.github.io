@@ -8,8 +8,6 @@ import pic01 from '../assets/images/pic01.jpg'
 import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
-import pic05 from '../assets/images/pic05.jpg'
-import pic06 from '../assets/images/pic06.jpg'
 
 class HomeIndex extends React.Component {
     render() {
@@ -30,58 +28,47 @@ class HomeIndex extends React.Component {
                 <div id="main">
                     <section id="one" className="tiles">
                         <article style={{backgroundImage: `url(${pic01})`}}>
-                            <header className="major">
-                                <h3>Aliquam</h3>
-                                <p>Ipsum dolor sit amet</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <a href="https://www.facebook.com/groups/526136141221635/" target="_blank">
+                                <header className="major">
+                                    <h3>Facebook</h3>
+                                    <p>Notre page est libre d'accès à chacun,<br />
+                                        vous y trouverez des informations liées<br />
+                                        à la communauté, vous pouvez aussi poster<br />
+                                        librement tout type de contenue.</p>
+                                </header>
+                            </a>
                         </article>
                         <article style={{backgroundImage: `url(${pic02})`}}>
-                            <header className="major">
-                                <h3>Tempus</h3>
-                                <p>feugiat amet tempus</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <a href="https://discord.gg/fYRcubC" target="_blank">
+                                <header className="major">
+                                    <h3>Discord</h3>
+                                    <p>Plateforme accessible sur votre navigateur ou via une application, cet outil<br/>
+                                    vous permettra de rentrer en communication direct avec l'ensemble de nos<br/>
+                                    membres très rapidement sur l'ensemble des sujets qui vous concernent.</p>
+                                </header>
+                            </a>
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
-                                <h3>Magna</h3>
-                                <p>Lorem etiam nullam</p>
+                                <h3>Les Assemblés générales</h3>
+                                <p>Elles nous permettent de voter de façons collégiales des propositions,<br/>
+                                qui peuvent émaner des ateliers participatifs, d'une recherche collective,<br/>
+                                individuelle, ou autre, à vous d'être force de propositions!
+                                </p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
-                                <h3>Ipsum</h3>
-                                <p>Nisl sed aliquam</p>
+                                <h3>Les Ateliers participatifs</h3>
+                                <p>Ils permettent de réfléchir en profondeur<br/>
+                                sur des sujets précis, aller au bout des choses,<br/>
+                                découvrir de nouvelles problématiques, se creuser<br/>
+                                la tête!
+                                </p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic05})`}}>
-                            <header className="major">
-                                <h3>Consequat</h3>
-                                <p>Ipsum dolor sit amet</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic06})`}}>
-                            <header className="major">
-                                <h3>Etiam</h3>
-                                <p>Feugiat amet tempus</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                    </section>
-                    <section id="two">
-                        <div className="inner">
-                            <header className="major">
-                                <h2>Massa libero</h2>
-                            </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-                            <ul className="actions">
-                                <li><Link to="/landing" className="button next">Get Started</Link></li>
-                            </ul>
-                        </div>
                     </section>
                 </div>
 
