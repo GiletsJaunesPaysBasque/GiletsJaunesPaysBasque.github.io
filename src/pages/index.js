@@ -4,11 +4,6 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
-import pic01 from '../assets/images/pic01.jpg'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
-
 class HomeIndex extends React.Component {
     render() {
 
@@ -26,9 +21,20 @@ class HomeIndex extends React.Component {
                 <Banner />
 
                 <div id="main">
-                    <section id="one" className="tiles">
-                        <article style={{backgroundImage: `url(${pic01})`}}>
-                            <a href="https://www.facebook.com/groups/526136141221635/" target="_blank">
+                    <section id="one" style={{ backgroundColor: '#FFFF6B', color: '#000' }}>
+                        <div className="inner">
+                            <header className="major">
+                                <h2 style={{ color: '#000' }} >Le forum de gilets jaunes</h2>
+                            </header>
+                            <p>Notre forum est un espace de discussion libre. Il est organisé en fonction des sujets que vous souhaitez aborder.</p>
+                            <ul className="actions">
+                                <li><a style={{ color: '#000' }} className="button" href="http://forum.giletsjaunes-paysbasque.org/" target="_blank" rel="noopener noreferrer">Rejoindre le forum</a></li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section id="two" className="tiles">
+                        <article style={{ backgroundColor: '#3b5998' }}>
+                            <a href="https://www.facebook.com/groups/526136141221635/" target="_blank" rel="noopener noreferrer">
                                 <header className="major">
                                     <h3>Facebook</h3>
                                     <p>Notre page est libre d'accès à chacun,<br />
@@ -38,8 +44,8 @@ class HomeIndex extends React.Component {
                                 </header>
                             </a>
                         </article>
-                        <article style={{backgroundImage: `url(${pic02})`}}>
-                            <a href="https://discord.gg/fYRcubC" target="_blank">
+                        <article style={{ backgroundColor: '#7289da' }}>
+                            <a href="https://discord.gg/fYRcubC" target="_blank" rel="noopener noreferrer">
                                 <header className="major">
                                     <h3>Discord</h3>
                                     <p>Plateforme accessible sur votre navigateur ou via une application, cet outil<br/>
@@ -48,7 +54,7 @@ class HomeIndex extends React.Component {
                                 </header>
                             </a>
                         </article>
-                        <article style={{backgroundImage: `url(${pic03})`}}>
+                        <article style={{ backgroundColor: '#FFFF84' }}>
                             <header className="major">
                                 <h3>Les Assemblés générales</h3>
                                 <p>Elles nous permettent de voter de façons collégiales des propositions,<br/>
@@ -58,7 +64,7 @@ class HomeIndex extends React.Component {
                             </header>
                             <Link to="/landing" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic04})`}}>
+                        <article style={{ backgroundColor: '#B5FFC8' }}>
                             <header className="major">
                                 <h3>Les Ateliers participatifs</h3>
                                 <p>Ils permettent de réfléchir en profondeur<br/>
